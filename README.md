@@ -78,3 +78,11 @@ https://pubmed.ncbi.nlm.nih.gov
 **Number of Total Records: 24668**
 
 **Accuracy (80:20 split): 90.8**
+
+
+## **REFERENCES & URLs**
+## **Online Sources:**
+
+1. <https://docs.google.com/document/d/1dcEGM7NCDqEydBmeH2yCz9gwaA2RISTeA-WoT8DgGyA/edit>
+1. https://medium.com/@andrewmarmon/fine-tuned-named-entity-recognition-with-hugging-face-bert-d51d4cb3d7b5
+##
