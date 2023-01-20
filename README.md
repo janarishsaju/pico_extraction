@@ -84,5 +84,7 @@ https://pubmed.ncbi.nlm.nih.gov
 ## **Online Sources:**
 
 1. <https://docs.google.com/document/d/1dcEGM7NCDqEydBmeH2yCz9gwaA2RISTeA-WoT8DgGyA/edit>
+1. https://github.com/jind11/PubMed-PICO-Detection
+1. https://pubmed.ncbi.nlm.nih.gov
 1. https://medium.com/@andrewmarmon/fine-tuned-named-entity-recognition-with-hugging-face-bert-d51d4cb3d7b5
 ##
