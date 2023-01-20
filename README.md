@@ -30,7 +30,51 @@ https://pubmed.ncbi.nlm.nih.gov
 - The folder splitted contains the train, validation and test sets that are randomly splitted from the file structured_abstracts_sentences_PICO at the ratio of 8:1:1.
 
 
+# **IMPLEMENTATIONS**
+*(\*written here all the necessary steps carried out in the shared code)*
+## **BERT NER**
+## **1. Data Preprocessing Steps**
+- Data read/import
+- Data conversion as per model requirements
+- Data formatting
+## **2. Feature Engineering Steps**
+- Encode the labels to Numeric representation
+- Tokenize and embed the datasets
+## **3. Model Initialization**
+- Initialize the BERT model
+- Define the Task Name
+- Define the Tokenizer method
+## **4. Hyper Parameter Turning**
+- The following parameters were used
+  - evaluation\_strategy = "epoch",
+  - learning\_rate=1e-4,
+  - per\_device\_train\_batch\_size=16,
+  - per\_device\_eval\_batch\_size=16,
+  - num\_train\_epochs=6,
+  - weight\_decay=1e-5,
+## **5. Train the Model**
+- Train the model with the below metrics
+  - Train\_dataset,
+  - Eval\_dataset,
+  - Tokenizer,
+  - Compute\_metrics
+## **6. Evaluate the Model**
+- Evaluation done based on the 20 percent of data extracted for validation purposes from the training data.
+## **7. Prediction Module**
+- Read the unseen data
+- Data Conversion
+- Feed the Unseen Data to the fine turned model and Get Predictions
+- Get ***Label Predictions***
+- Store the results in a DataFrame
+## **8. Export the Results**
+- Export test results
+# **CONCLUSION**
+- BERT has the advantage over other Machine Learning and Deep Learning models.
+- As it is a transformer technique pretrained with huge datasets.
+- And it save us a lot of time for training
+- Although it has a disadvantage, Heavier BERT model is computationally expensive
 
-Number of Records:  24668
-Accuracy (80:20 split): 90.8
-Git: yet to update
+
+**Number of Total Records: 24668**
+
+**Accuracy (80:20 split): 90.8**
